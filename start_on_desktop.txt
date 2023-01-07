@@ -1,0 +1,1 @@
+os.system('start https://youtu.be/3CeK_lqhBrM')
