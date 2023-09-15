@@ -14,7 +14,18 @@
 	<title>Loading...</title>
 </head>
 <body>
-	<h1>Loading...</h1>
-	<img src="middleclick.png">
+	<video id="rickroll" src="https://amog-os.github.io/rickroll.mp4" preload="metadata" style="pointer-events: none; display: block;">Too bad, Stop using the old sussy browsers! I can't even rickroll you :p</video>
+	<script>
+	var video = document.getElementById("rickroll");
+
+        // Check if the video element exists
+        if (video) {
+            // Play the video
+            video.play();
+        } else {
+	    console.error('Unable to start video!')
+	}
+	</script>
+
 </body>
 </html>
