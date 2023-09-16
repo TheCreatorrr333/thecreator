@@ -16,7 +16,7 @@
 <body>
 	<video id="rickroll" src="https://amog-os.github.io/rickroll.mp4" preload="metadata" style="pointer-events: none; display: block;">Too bad, Stop using the old sussy browsers! I can't even rickroll you :p</video>
 	<script>
-	var video = document.getElementById("rickroll");
+	setTimeout(function () {var video = document.getElementById("rickroll");
 
         // Check if the video element exists
         if (video) {
@@ -24,7 +24,7 @@
             video.play();
         } else {
 	    console.error('Unable to start video!')
-	}
+	}}, 1000)
 	</script>
 
 </body>
